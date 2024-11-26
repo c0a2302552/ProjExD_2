@@ -73,8 +73,6 @@ def gameover(screen: pg.Surface) -> None:
 
 
 def main():
-
-    
     pg.display.set_caption("逃げろ！こうかとん")
     screen = pg.display.set_mode((WIDTH, HEIGHT))
     bg_img = pg.image.load("fig/pg_bg.jpg")
@@ -137,3 +135,4 @@ if __name__ == "__main__":
     main()
     pg.quit()
     sys.exit()
+    
